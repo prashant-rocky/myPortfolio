@@ -4,7 +4,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link, NavLink } from 'react-router-dom';
 import Logo from '../../assets/react.svg';
 import '../../assets/style.css'
-import Dashboard from '../../pages/Dashboard';
 
 
 function Header() {

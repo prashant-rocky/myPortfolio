@@ -1,4 +1,4 @@
-import React from "react";
+
 import '../../assets/style.css'
 import bgBanner from '../../assets/allBg.webp'
 import Bio from "../../components/bio";

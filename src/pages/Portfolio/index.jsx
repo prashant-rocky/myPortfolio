@@ -1,4 +1,4 @@
-import React from "react";
+
 import Projects from "../../components/Projects";
 import bgBanner from '../../assets/allBg.webp'
 import '../../assets/style.css'

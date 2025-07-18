@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    ;
+}
+.mainMenu{
+    z-index: 999;
+    border-bottom: 1px solid black;
+}
+.banner {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ff {
+    font-family: "Bitcount Prop Double", system-ui;
+}
+.cursiveFont{
+  font-family: "Dancing Script", cursive;;
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.719);
+    height: 100%;
+    width: 100%;
+}
+
+.aboutImg {
+    width: 100%;
+    height: auto;
+}
+
+.bioHeading {
+    color: orangered;
+}
+
+.mybtn {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.rangeBox {
+    height: 5px;
+    width: auto;
+    background-color: antiquewhite;
+    border-radius: 4px;
+}
+
+.range {
+    background-color: orangered;
+    height: 100%;
+}
+
+.service {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.service::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: 0.2;
+}
+
+.serviceCard::before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.4;
+    border-radius: 10px;
+}
+
+.serviceCard:hover {
+    border-radius: 10px;
+    background-color: black;
+}
+
+.projectBox {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hoverBox {
+    opacity: 0;
+}
+
+.hoverBox:hover {
+    opacity: 1;
+}
+
+.timeline {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.review{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.timeline::before, .review::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.4;
+}
+.date{
+    border: 2px solid orangered;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+ border: 1px solid rgb(86, 85, 85);
+ border-radius: 10px;
+}
+
+.customerImg{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.formBox{
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(222, 222, 222);
+}
+.footerLink li{
+    list-style: none;
+}
+.allBanner{
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

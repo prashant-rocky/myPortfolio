@@ -2,12 +2,12 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link, NavLink } from 'react-router-dom';
-import Logo from '../../assets/react.svg';
+import Logo from '../../assets/logoimg.png';
 import '../../assets/style.css'
 
 
 function Header() {
-  const scroll = (e) => {
+  const scroll = () => {
     window.scrollTo(0, 0);
   };
 
@@ -16,7 +16,9 @@ function Header() {
 
       <Navbar expand="lg" className="bg-body-tertiary ">
         <Container>
-          <Navbar.Brand href="/"><img src={Logo} alt="error" className='img-fluid' /></Navbar.Brand>
+          <Navbar.Brand href="/">
+          <div className="col-4"><img src={Logo} alt="error" className='img-fluid'/></div>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">

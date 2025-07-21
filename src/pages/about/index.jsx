@@ -1,7 +1,7 @@
 
 import '../../assets/style.css'
 import bgBanner from '../../assets/allBg.webp'
-import Bio from "../../components/bio";
+import Bio from "../../components/Bio";
 
 const About = () =>{
     return(
@@ -11,7 +11,7 @@ const About = () =>{
                 <h2 className='display-1 text-capitalize text-white ff fw-bolder'>About Me.</h2>
             </div> 
         </section>
-        <Bio/>
+        <Bio />
         </>
     )
 }

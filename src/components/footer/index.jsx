@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../../assets/react.svg'
+import logo from '../../assets/logoimg.png'
 import { Link } from "react-router-dom";
 import '../../assets/style.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,7 +13,9 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-md-4">
                         <h1 className="ff text-white">Go to website</h1>
-                        <img src={logo} alt="errror" />
+                        <div className="col-2">
+                            <img src={logo} alt="errror" />
+                        </div>
                     </div>
                     <div className="col-md-4">
                         <h1 className="ff text-white">Usefull link</h1>

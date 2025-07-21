@@ -26,7 +26,7 @@ const Bio = () => {
                     </div>
                     <div className="row">
                         {
-                            Data.map((el, i) => {
+                            Data.map((el, ) => {
                                 return (
                                     <div className='col-md-4' key={el.id}>
                                         <MyWork

@@ -1,6 +1,5 @@
 
 import '../../assets/style.css'
-import aboutImg from '../../assets/about.webp'
 import Banner from '../../components/banner';
 import Bio from '../../components/bio';
 import Services from '../../components/services';

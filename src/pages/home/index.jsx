@@ -1,7 +1,7 @@
 
 import '../../assets/style.css'
 import Banner from '../../components/banner';
-import Bio from '../../components/bio';
+import Bio from '../../components/Bio';
 import Services from '../../components/services';
 import Projects from '../../components/Projects';
 import Timeline from '../../components/Timeline';
